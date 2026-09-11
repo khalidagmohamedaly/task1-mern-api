@@ -1,0 +1,20 @@
+{
+  "name": "task1-mern-api",
+  "version": "1.0.0",
+  "description": "API RESTful Task Manager - Stage MERN Stack (Tâche 1)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["nodejs", "express", "mongodb", "mongoose", "rest-api", "mern"],
+  "author": "Khalid Ag Mohamed Aly",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.0.1",
+    "mongoose": "^9.0.0",
+    "morgan": "^1.10.0"
+  }
+}
